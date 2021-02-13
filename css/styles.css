@@ -1,0 +1,304 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*section*/
+.exam-head{
+    background-image: url(../images/blok1/BG.png);
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-size: 100%;
+    color: white;
+    letter-spacing: 2.4px;
+}
+.exam-head_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    font-size: 16px;
+}
+.exam-head_body{
+    margin-top: 14%;
+}
+.exam-head_body_txt{
+    font-size: 36px;
+    letter-spacing: 5.4px;
+}
+.exam-head_body_txt_p{
+    font-size: 16px;
+    letter-spacing: 2.4px;
+}
+.exam-head_body_button{
+    margin-top: 2%;
+}
+.exam-head_bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 17%;
+    margin-bottom: 2%;
+}
+.exam-head_bottom_img{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+/*section1*/
+.exam-block{
+    background-image: url(../images/blok2/HandPhone.png);
+    background-size: 100%;
+}
+.exam-block_content{
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+.exam-block_content-head{
+letter-spacing: 2.7px;
+color: #16A085;
+font-size: 18px;
+letter-spacing: 2.7px;
+}
+.exam-block_content-body{
+letter-spacing: 1.8px;
+color: #373737;
+font-size: 12px;
+letter-spacing: 1.8px;
+margin-top: 3%;
+}
+.exam-block_content-botton{
+    margin-top: 3%;
+}
+/*section2*/
+.exam-design-clas{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+.exam-design-clas__content_head{
+    letter-spacing: 2.7px;
+color: #16A085;
+font-size: 18px;
+letter-spacing: 2.7px;
+}
+.exam-design-clas__content_body{
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    line-height: 22px;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+.exam-design-clas__content_footer_bot{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;   
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    line-height: 22px;
+}
+.exam-design-clas__content_footer_bot_icon{
+    max-width: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+/*section3*/
+.exam-com{
+    background-color: #F5F6F7;
+    background-size: 100%;
+}
+.exam-com-blok{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.exam-com-blok_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.exam-com-blok_img_one{
+    display: flex;
+    flex-direction: column;
+    height: 244px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 190px;
+}
+.exam-com-blok_icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+}
+.exam-com-blok_icon_one{
+    padding-right: 15px;
+}
+.exam-com-blok_img_one_txt{
+    letter-spacing: 2.4px;
+color: #373737;
+font-size: 16px;
+letter-spacing: 2.4px;
+}
+.exam-com-blok_img_one_text{
+    text-align: center;
+letter-spacing: 1.5px;
+color: #373737;
+font-size: 12px;
+line-height: 12px;
+}
+/*section4*/
+.exam-input{
+    background-image: url(../images/blok5/Livello\ 3.png);
+    background-size: 100%;
+}
+.exam-input_centr_check_email{
+    width: 100%;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 0px;
+}
+.exam-input_centr_check_butt{
+    background-color: #16A085;
+    padding: 18px;
+    border: 0px;
+}
+.exam-input_centr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.exam-input_centr_check{
+    display: flex;
+    justify-content: center;
+}
+.exam-input_centr_head{
+    color: white;
+    letter-spacing: 3.6px;
+    line-height: 28px;
+    font-size: 24px;
+    margin-bottom: 2%;
+}
+/*section5*/
+.exam-foot{
+    background-color: #F5F6F7;
+}
+.exam-foot_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7% ;
+    padding-bottom: 10% ;
+}
+.exam-foot_block_img{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+.exam-foot_block_img_apple{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1ABC9C;
+height: 60px;
+width: 300px;
+}
+.exam-foot_block_img_apple_img{
+    background-color: #16A085;
+    padding: 16.5px;  
+}
+.href{
+    text-decoration: none;
+    color: white;   
+}
+.exam-foot_block_img_android{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1ABC9C;
+    height: 60px;
+    width: 300px;
+}
+.exam-foot_block_img_android_img{
+    background-color: #16A085;
+    padding: 14px;
+}
+.exam-foot_block_txt{
+    letter-spacing: 3px;
+color: #373737;
+font-size: 20px;
+line-height: 24px;
+margin-bottom: 1%;
+}
+.exam-foot_block_text{
+    letter-spacing: 1.8px;
+color: #373737;
+font-size: 12px;
+line-height: 22px;
+text-align: center;
+margin-bottom: 3%;
+}
+/*section6*/
+.exam-footer{
+    background-color: white;
+}
+.exam-footer_head{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    padding-top: 4%;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.exam-footer_head_top{
+    letter-spacing: 2.1px;
+    color: #373737;
+    font-size: 14px;
+    letter-spacing: 2.1px;
+    line-height: 16.8px;
+}
+.exam-footer_head_top_txt{
+    padding-bottom: 5%;
+}
+/*anchor*/
+a{
+    text-decoration: none;
+    color: white;
+}
+/*media*/
+@media screen and (max-width: 565px){
+    .exam-head_top{
+        flex-direction: column;
+    }
+    .exam-head_body_txt
+    .exam-com-blok_img{
+        flex-wrap: wrap;
+    }
+    .exam-foot_block_img{
+        flex-direction: column;
+    }
+    .exam-design-clas__content{
+        position: absolute;
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 15%;
+    max-width: 250px;
+    }
+    .exam-com-blok_img{
+        flex-direction: column;
+    }
+    .exam-com-blok_icon{
+        justify-content: center;
+        margin: 0px
+    }
+    .exam-foot_block_img {
+     width: 100%;
+     align-items: center;
+    }
+}
