@@ -287,7 +287,7 @@ a{
         position: absolute;
     text-align: left;
     margin-top: 15%;
-    margin-left: 15%;
+    margin-left:5%;
     max-width: 250px;
     }
     .exam-com-blok_img{
@@ -300,5 +300,8 @@ a{
     .exam-foot_block_img {
      width: 100%;
      align-items: center;
+    }
+    .exam-input_centr_head{
+        text-align: center;
     }
 }
